@@ -1,4 +1,4 @@
-import {Card} from '../ui/dashboard/cards';
+import {Card} from './dashboard/cards';
 const Airtable = require('airtable');
 const base = new Airtable({
     apiKey: process.env.NEXT_APP_AUTH_TOKEN
